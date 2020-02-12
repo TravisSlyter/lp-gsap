@@ -1,0 +1,25 @@
+#midlayer {
+    background-color: var(--gray);
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.welcome {
+    color: var(--blue);
+    height: 200px;
+    width: 450px;
+    font-size: 72px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    opacity: 0;
+}

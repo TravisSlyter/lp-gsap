@@ -1,0 +1,19 @@
+
+#baselayer {
+    background-color: var(--blue2);
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.dscript {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: var(--white);
+    font-size: 40px;
+}
